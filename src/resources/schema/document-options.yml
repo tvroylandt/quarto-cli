@@ -145,6 +145,7 @@
         tectonic,
         wkhtmltopdf,
         weasyprint,
+        pagedjs-cli,
         prince,
         context,
         pdfroff,
@@ -160,7 +161,7 @@
       - `latex`: `xelatex` (other options: `pdflatex`, `lualatex`,
         `tectonic`, `latexmk`)
       - `context`: `context`
-      - `html`:  `wkhtmltopdf` (other options: `prince`, `weasyprint`;
+      - `html`:  `wkhtmltopdf` (other options: `prince`, `weasyprint`, `pagedjs-cli`;
         see [print-css.rocks](https://print-css.rocks) for a good
         introduction to PDF generation from HTML/CSS.)
       - `ms`:  `pdfroff`
